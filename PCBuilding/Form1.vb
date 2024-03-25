@@ -17,6 +17,7 @@
         Me.Hide()
         f3.ShowDialog()
         Me.Show()
+        CPUTotalLabel.Text = f3.UserControl12.priceLabel.Text
     End Sub
 
     Private Sub Label18_Click(sender As Object, e As EventArgs) Handles Label18.Click
@@ -24,4 +25,5 @@
         f4.ShowDialog()
         Me.Show()
     End Sub
+
 End Class

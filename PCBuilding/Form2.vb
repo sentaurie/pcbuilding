@@ -36,4 +36,5 @@ Boost Clock 1455 MHz, 1 x DL-DVI-D 1 x HDMI 2.0 1 x DisplayPort 1.4,
         UserControl11.productNameLabel.Text = "Radeon RX 7600 XT"
         UserControl11.descriptionTextBox.Text = "16GB GDDR6 memory, PCI Express 4.0, WINDFORCE cooling, RGB Fusion, HDMI 2.1a x2, DisplayPort 2.1 x2"
     End Sub
+
 End Class
