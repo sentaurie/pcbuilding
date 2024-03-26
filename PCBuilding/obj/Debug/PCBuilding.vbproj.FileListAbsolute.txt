@@ -32,3 +32,4 @@ C:\Users\aewea857\Desktop\pcbuilding\pcbuilding\PCBuilding\obj\Debug\PCBuilding.
 C:\Users\aewea857\Desktop\pcbuilding\pcbuilding\PCBuilding\obj\Debug\PCBuilding.exe
 C:\Users\aewea857\Desktop\pcbuilding\pcbuilding\PCBuilding\obj\Debug\PCBuilding.xml
 C:\Users\aewea857\Desktop\pcbuilding\pcbuilding\PCBuilding\obj\Debug\PCBuilding.pdb
+C:\Users\aewea857\Desktop\pcbuilding\pcbuilding\PCBuilding\obj\Debug\PCBuilding.Form5.resources

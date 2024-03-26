@@ -26,7 +26,6 @@ Partial Class UserControl1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UserControl1))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.priceLabel = New System.Windows.Forms.Label()
-        Me.productNameLabel = New System.Windows.Forms.Label()
         Me.descriptionTextBox = New System.Windows.Forms.TextBox()
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -44,22 +43,12 @@ Partial Class UserControl1
         'priceLabel
         '
         Me.priceLabel.AutoSize = True
-        Me.priceLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.priceLabel.Location = New System.Drawing.Point(176, 240)
+        Me.priceLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.priceLabel.Location = New System.Drawing.Point(86, 229)
         Me.priceLabel.Name = "priceLabel"
-        Me.priceLabel.Size = New System.Drawing.Size(77, 25)
+        Me.priceLabel.Size = New System.Drawing.Size(111, 37)
         Me.priceLabel.TabIndex = 1
         Me.priceLabel.Text = "Label1"
-        '
-        'productNameLabel
-        '
-        Me.productNameLabel.AutoSize = True
-        Me.productNameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.productNameLabel.Location = New System.Drawing.Point(11, 244)
-        Me.productNameLabel.Name = "productNameLabel"
-        Me.productNameLabel.Size = New System.Drawing.Size(57, 20)
-        Me.productNameLabel.TabIndex = 2
-        Me.productNameLabel.Text = "Label2"
         '
         'descriptionTextBox
         '
@@ -80,13 +69,17 @@ Partial Class UserControl1
         Me.ImageList1.Images.SetKeyName(3, "4090.jpg")
         Me.ImageList1.Images.SetKeyName(4, "RadeonRX7600XT.jpg")
         Me.ImageList1.Images.SetKeyName(5, "i5.jpg")
+        Me.ImageList1.Images.SetKeyName(6, "i7.jpg")
+        Me.ImageList1.Images.SetKeyName(7, "i9.jpg")
+        Me.ImageList1.Images.SetKeyName(8, "ryzen5.jpg")
+        Me.ImageList1.Images.SetKeyName(9, "ryzen7.jpg")
+        Me.ImageList1.Images.SetKeyName(10, "aorusb550m.jpg")
         '
         'UserControl1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.descriptionTextBox)
-        Me.Controls.Add(Me.productNameLabel)
         Me.Controls.Add(Me.priceLabel)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "UserControl1"
@@ -99,7 +92,6 @@ Partial Class UserControl1
 
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents priceLabel As Label
-    Friend WithEvents productNameLabel As Label
     Friend WithEvents descriptionTextBox As TextBox
     Friend WithEvents ImageList1 As ImageList
 End Class
