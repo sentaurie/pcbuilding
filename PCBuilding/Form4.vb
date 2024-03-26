@@ -1,4 +1,4 @@
-﻿Public Class Form4
+Public Class Form4
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         UserControl12.PictureBox1.Image = UserControl12.ImageList1.Images(1)
         UserControl12.priceLabel.Text = 125.ToString("C2")
