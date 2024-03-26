@@ -79,7 +79,6 @@ Partial Class UserControl1
         Me.ImageList1.Images.SetKeyName(2, "3090.jpg")
         Me.ImageList1.Images.SetKeyName(3, "4090.jpg")
         Me.ImageList1.Images.SetKeyName(4, "RadeonRX7600XT.jpg")
-        Me.ImageList1.Images.SetKeyName(5, "i5.jpg")
         '
         'UserControl1
         '
