@@ -62,12 +62,12 @@ Partial Class Form5
         '
         'Button9
         '
-        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.Location = New System.Drawing.Point(66, 120)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(277, 49)
         Me.Button9.TabIndex = 32
-        Me.Button9.Text = "Intel Core i7-14700K"
+        Me.Button9.Text = "MSI MAG B550 TOMAHAWK"
         Me.Button9.UseVisualStyleBackColor = True
         '
         'Button10
