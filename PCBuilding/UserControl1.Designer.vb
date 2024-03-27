@@ -1,9 +1,9 @@
-<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class UserControl1
     Inherits System.Windows.Forms.UserControl
 
     'UserControl overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class UserControl1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UserControl1))
@@ -33,31 +33,30 @@ Partial Class UserControl1
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 17)
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(282, 203)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.Size = New System.Drawing.Size(318, 260)
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'priceLabel
         '
         Me.priceLabel.AutoSize = True
-        Me.priceLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.priceLabel.Location = New System.Drawing.Point(86, 229)
+        Me.priceLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.priceLabel.Location = New System.Drawing.Point(115, 263)
         Me.priceLabel.Name = "priceLabel"
-        Me.priceLabel.Size = New System.Drawing.Size(111, 37)
+        Me.priceLabel.Size = New System.Drawing.Size(86, 29)
         Me.priceLabel.TabIndex = 1
         Me.priceLabel.Text = "Label1"
         '
         'descriptionTextBox
         '
-        Me.descriptionTextBox.Location = New System.Drawing.Point(3, 276)
+        Me.descriptionTextBox.Location = New System.Drawing.Point(3, 295)
         Me.descriptionTextBox.Multiline = True
         Me.descriptionTextBox.Name = "descriptionTextBox"
         Me.descriptionTextBox.ReadOnly = True
-        Me.descriptionTextBox.Size = New System.Drawing.Size(276, 84)
-        Me.descriptionTextBox.TabIndex = 4
+        Me.descriptionTextBox.Size = New System.Drawing.Size(312, 54)
+        Me.descriptionTextBox.TabIndex = 2
         '
         'ImageList1
         '
@@ -83,7 +82,7 @@ Partial Class UserControl1
         Me.Controls.Add(Me.priceLabel)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "UserControl1"
-        Me.Size = New System.Drawing.Size(282, 363)
+        Me.Size = New System.Drawing.Size(318, 352)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
