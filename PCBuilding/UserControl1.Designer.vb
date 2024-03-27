@@ -35,7 +35,8 @@ Partial Class UserControl1
         '
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(318, 260)
+        Me.PictureBox1.Size = New System.Drawing.Size(285, 260)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
@@ -43,7 +44,7 @@ Partial Class UserControl1
         '
         Me.priceLabel.AutoSize = True
         Me.priceLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.priceLabel.Location = New System.Drawing.Point(115, 263)
+        Me.priceLabel.Location = New System.Drawing.Point(96, 263)
         Me.priceLabel.Name = "priceLabel"
         Me.priceLabel.Size = New System.Drawing.Size(86, 29)
         Me.priceLabel.TabIndex = 1
@@ -55,7 +56,7 @@ Partial Class UserControl1
         Me.descriptionTextBox.Multiline = True
         Me.descriptionTextBox.Name = "descriptionTextBox"
         Me.descriptionTextBox.ReadOnly = True
-        Me.descriptionTextBox.Size = New System.Drawing.Size(312, 54)
+        Me.descriptionTextBox.Size = New System.Drawing.Size(282, 67)
         Me.descriptionTextBox.TabIndex = 2
         '
         'ImageList1
@@ -72,7 +73,6 @@ Partial Class UserControl1
         Me.ImageList1.Images.SetKeyName(7, "i9.jpg")
         Me.ImageList1.Images.SetKeyName(8, "ryzen5.jpg")
         Me.ImageList1.Images.SetKeyName(9, "ryzen7.jpg")
-        Me.ImageList1.Images.SetKeyName(10, "aorusb550m.jpg")
         '
         'UserControl1
         '
@@ -82,7 +82,7 @@ Partial Class UserControl1
         Me.Controls.Add(Me.priceLabel)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "UserControl1"
-        Me.Size = New System.Drawing.Size(318, 352)
+        Me.Size = New System.Drawing.Size(285, 365)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
