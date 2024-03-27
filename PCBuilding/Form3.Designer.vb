@@ -149,7 +149,6 @@ Partial Class Form3
         '
         Me.UserControl12.Location = New System.Drawing.Point(441, 46)
         Me.UserControl12.Name = "UserControl12"
-        Me.UserControl12.picture = Nothing
         Me.UserControl12.Size = New System.Drawing.Size(282, 363)
         Me.UserControl12.TabIndex = 28
         '
